@@ -27,7 +27,7 @@ namespace gen {
 	void Heap::pop() {
 		int val = t.back();
 		t.pop_back();
-		
+
 		t[0] = val;
 		int idx = 0;
 		while (2 * idx + 1 < t.size()) {

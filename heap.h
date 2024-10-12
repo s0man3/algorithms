@@ -6,7 +6,7 @@ namespace gen {
 			std::vector<int> t;
 
 			Heap();
-			
+
 			void push(int val);
 
 			void pop();

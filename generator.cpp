@@ -23,7 +23,7 @@ namespace gen {
 		return vec;
 	}
 
-	std::string string(int min, int max) 
+	std::string string(int min, int max)
 	{
 		std::random_device rd;
 		std::mt19937 mt(rd());
