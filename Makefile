@@ -23,4 +23,4 @@ $(addprefix $(BINDIR)/, $(TARGETS)): $(BINDIR)/%: $(SRCDIR)/%.o $(LIBOBJ)
 $(TARGETS): %: $(BINDIR)/%
 
 clean:
-	rm -f $(SRCDIR)/*.o $(LIBDIR)/*.o $(BINDIR)/*
+	rm -f $(SRCDIR)/*.o $(LIBDIR)/*.o $(LIBDIR)/*.gch $(BINDIR)/*
